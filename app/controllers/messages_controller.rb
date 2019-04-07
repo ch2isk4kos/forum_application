@@ -1,13 +1,13 @@
 class MessagesController < ApplicationController
 
-    before_action 
+
 
     def index
         @messages = Message.all.order('created_at DESC')
     end
 
     def show
-
+        find_message
     end
 
     def new

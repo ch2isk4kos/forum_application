@@ -24,4 +24,8 @@
 10. configure simple_form
     - $ rails generate simple_form:install --bootstrap
 
-11.
+11. set up index, new and create actions in messages_controller.rb
+
+12. set up views/messages/index.html.erb page
+
+13. set up show action and show view file 

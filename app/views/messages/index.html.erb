@@ -1,1 +1,10 @@
-<h1>INdex</h1>
+<% @messages.each do |message| %>
+    <div class="col-md-10 col-md-offset-1">
+        <div class="message">
+            <h3 class="message-title"><%= message.title %></h3>
+            <%= link_to 'Dispute Claim', message, class: 'btn btn-custom' %>
+        </div>
+    </div>
+<% end %>
+
+<%= link_to 'Post', new_message_path %>
