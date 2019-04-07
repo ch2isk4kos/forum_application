@@ -23,3 +23,5 @@
 
 10. configure simple_form
     - $ rails generate simple_form:install --bootstrap
+
+11.
