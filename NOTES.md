@@ -33,3 +33,24 @@
 14. set up update, edit and destroy actions in messages_controller.rb
 
 15. add edit view file
+
+16. add devise to Gemfile to add User model to application
+
+17. $ bundle install
+
+18. restart server
+
+19. configure devise
+    - $ rails generate devise:install
+    - add to config/environments/development.rb:
+       config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+    - add to app/views/layouts/application.html.erb
+        ```html
+            <p class="notice"><%= notice %></p>
+            <p class="alert"><%= alert %></p>
+            <%= yield %>
+        ```    
+    - $ rails g devise:views
+    - $ rails generate devise User
+    - $ rake routes
+    - $ rake db:migrate
