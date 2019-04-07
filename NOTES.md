@@ -28,4 +28,8 @@
 
 12. set up views/messages/index.html.erb page
 
-13. set up show action and show view file 
+13. set up show action and show view file
+
+14. set up update, edit and destroy actions in messages_controller.rb
+
+15. add edit view file
