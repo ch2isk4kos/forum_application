@@ -11,3 +11,12 @@
 6. add simple_form && bootstrap-sass to Gemfile
 
 7. $ bundle install
+
+8. restart the server
+
+9. configure bootstrap-sass
+    - app/assets/stylesheets/application.css.scss
+        @import "bootstrap-sprockets";
+        @import "bootstrap";
+    - app/assets/javaScripts/application.js
+        //= require bootstrap-sprockets
