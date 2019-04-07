@@ -54,3 +54,7 @@
     - $ rails generate devise User
     - $ rake routes
     - $ rake db:migrate
+    - restart server
+
+20. configure navigation functionality in
+    - added bootstrap navbar to app/views/layouts/application.html.erb
