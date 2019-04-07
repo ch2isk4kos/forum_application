@@ -58,3 +58,8 @@
 
 20. configure navigation functionality in
     - added bootstrap navbar to app/views/layouts/application.html.erb
+
+21. create Associations between user and message
+    - $ rails generate migration add_user_id_to_messages user_id:integer
+    - $ rake db:migrate
+    - update new and create message actions in messages_controller.rb
