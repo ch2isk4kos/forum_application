@@ -73,3 +73,7 @@
 25. add _comment && _form __ partials to views/comments
 
 26. render _comment && _form __ message show page
+
+27. add edit and delete buttons to _comment __ partial
+
+28. add edit, update and destroy actions to comments_controller.rb
