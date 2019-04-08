@@ -69,3 +69,7 @@
 23. $ rake db:migrate
 
 24. $ rails generate controller Comments
+
+25. add _comment && _form __ partials to views/comments
+
+26. render _comment && _form __ message show page
