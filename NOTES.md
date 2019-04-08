@@ -63,3 +63,9 @@
     - $ rails generate migration add_user_id_to_messages user_id:integer
     - $ rake db:migrate
     - update new and create message actions in messages_controller.rb
+
+22. $ rails generate model Comment content:text message:references user:references
+
+23. $ rake db:migrate
+
+24. $ rails generate controller Comments
